@@ -1,0 +1,14 @@
+/home/cdac/class_code/DotNet/Fundamentals/Inheritance/Assignment/bin/Debug/net8.0/DemoApp
+/home/cdac/class_code/DotNet/Fundamentals/Inheritance/Assignment/bin/Debug/net8.0/DemoApp.deps.json
+/home/cdac/class_code/DotNet/Fundamentals/Inheritance/Assignment/bin/Debug/net8.0/DemoApp.runtimeconfig.json
+/home/cdac/class_code/DotNet/Fundamentals/Inheritance/Assignment/bin/Debug/net8.0/DemoApp.dll
+/home/cdac/class_code/DotNet/Fundamentals/Inheritance/Assignment/bin/Debug/net8.0/DemoApp.pdb
+/home/cdac/class_code/DotNet/Fundamentals/Inheritance/Assignment/obj/Debug/net8.0/DemoApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/class_code/DotNet/Fundamentals/Inheritance/Assignment/obj/Debug/net8.0/DemoApp.AssemblyInfoInputs.cache
+/home/cdac/class_code/DotNet/Fundamentals/Inheritance/Assignment/obj/Debug/net8.0/DemoApp.AssemblyInfo.cs
+/home/cdac/class_code/DotNet/Fundamentals/Inheritance/Assignment/obj/Debug/net8.0/DemoApp.csproj.CoreCompileInputs.cache
+/home/cdac/class_code/DotNet/Fundamentals/Inheritance/Assignment/obj/Debug/net8.0/DemoApp.dll
+/home/cdac/class_code/DotNet/Fundamentals/Inheritance/Assignment/obj/Debug/net8.0/refint/DemoApp.dll
+/home/cdac/class_code/DotNet/Fundamentals/Inheritance/Assignment/obj/Debug/net8.0/DemoApp.pdb
+/home/cdac/class_code/DotNet/Fundamentals/Inheritance/Assignment/obj/Debug/net8.0/DemoApp.genruntimeconfig.cache
+/home/cdac/class_code/DotNet/Fundamentals/Inheritance/Assignment/obj/Debug/net8.0/ref/DemoApp.dll
