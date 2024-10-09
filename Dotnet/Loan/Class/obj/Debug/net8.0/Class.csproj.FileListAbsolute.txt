@@ -1,0 +1,11 @@
+/home/cdac/class_code/SP/Dotnet/Loan/Class/bin/Debug/net8.0/Class.deps.json
+/home/cdac/class_code/SP/Dotnet/Loan/Class/bin/Debug/net8.0/Class.dll
+/home/cdac/class_code/SP/Dotnet/Loan/Class/bin/Debug/net8.0/Class.pdb
+/home/cdac/class_code/SP/Dotnet/Loan/Class/obj/Debug/net8.0/Class.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/class_code/SP/Dotnet/Loan/Class/obj/Debug/net8.0/Class.AssemblyInfoInputs.cache
+/home/cdac/class_code/SP/Dotnet/Loan/Class/obj/Debug/net8.0/Class.AssemblyInfo.cs
+/home/cdac/class_code/SP/Dotnet/Loan/Class/obj/Debug/net8.0/Class.csproj.CoreCompileInputs.cache
+/home/cdac/class_code/SP/Dotnet/Loan/Class/obj/Debug/net8.0/Class.dll
+/home/cdac/class_code/SP/Dotnet/Loan/Class/obj/Debug/net8.0/refint/Class.dll
+/home/cdac/class_code/SP/Dotnet/Loan/Class/obj/Debug/net8.0/Class.pdb
+/home/cdac/class_code/SP/Dotnet/Loan/Class/obj/Debug/net8.0/ref/Class.dll
