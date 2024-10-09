@@ -1,41 +1,23 @@
 using System;
-namespace Class;
 
-public abstract class Loan
+namespace Class
 {
-    private double principle;
-    private float period;
-
-    public Loan(double p, float t)
+    public abstract class Loan
     {
-        principle = p;
-        period = t;
-    }
+        public double Principle { get; set; }
+        public float Period { get; set; }
 
-    public double GetPrinciple()
-    {
-        return principle;
-    }
+        // public Loan(double principle, float period)
+        // {
+        //     Principle = principle;
+        //     Period = period;
+        // }
 
-    public void SetPrinciple(double p)
-    {
-        principle = p;
-    }
+        public abstract float GetRate();
 
-    public float GetPeriod()
-    {
-        return period;
-    }
-
-    public void SetPeriod(float t)
-    {
-        period = t;
-    }
-
-    public abstract float GetRate();
-
-    public double GetEMI()
-    {
-        return principle * (1 + GetRate() * period / 100) / (12 * period);
+        public double GetEMI()
+        {
+            return Principle * (1 + GetRate() * Period / 100) / (12 * Period);
+        }
     }
 }
