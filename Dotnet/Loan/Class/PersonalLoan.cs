@@ -1,17 +1,20 @@
-namespace Class;
-public class PersonalLoan : Loan
+namespace Class
 {
-    public PersonalLoan(double p, float t) : base(p, t) {}
-
-    public override float GetRate()
+    public class PersonalLoan : Loan
     {
-        if (GetPrinciple() <= 500000)
+        //public PersonalLoan(double principle, float period) : base(principle, period) {}
+
+        public override float GetRate()
         {
-            return 0.15f; // 15%
-        }
-        else
-        {
-            return 0.16f; // 16%
+            if (Principle <= 500000)
+            {
+                return 0.15f; // 15%
+            }
+            else
+            {
+                return 0.16f; // 16%
+            }
         }
     }
 }
+
