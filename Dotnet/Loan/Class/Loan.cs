@@ -7,12 +7,6 @@ namespace Class
         public double Principle { get; set; }
         public float Period { get; set; }
 
-        // public Loan(double principle, float period)
-        // {
-        //     Principle = principle;
-        //     Period = period;
-        // }
-
         public abstract float GetRate();
 
         public double GetEMI()
