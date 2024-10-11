@@ -1,9 +1,11 @@
 namespace Class
 {
-    public class PersonalLoan : Loan
+    public interface Taxable{
+        double GetTax();
+    }
+    public class PersonalLoan : Loan, Taxable
     {
-        //public PersonalLoan(double principle, float period) : base(principle, period) {}
-
+       
         public override float GetRate()
         {
             if (Principle <= 500000)
@@ -14,6 +16,11 @@ namespace Class
             {
                 return 0.16f; // 16%
             }
+        }
+        public double GetTax()
+        {
+            double emi = GetEMI();
+            return emi * 0.10; 
         }
     }
 }
