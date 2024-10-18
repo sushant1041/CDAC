@@ -1,0 +1,21 @@
+-- Create a new database
+CREATE DATABASE SampleDB;
+
+
+-- Use the new database
+USE SampleDB;
+
+
+-- Create a sample table
+CREATE TABLE Users (
+    Id INT PRIMARY KEY,
+    Name NVARCHAR(100) NOT NULL,
+    Email NVARCHAR(100) NOT NULL
+);
+
+
+-- Insert sample data
+INSERT INTO Users VALUES ('Alice', 'alice@example.com');
+INSERT INTO Users VALUES ('Bob', 'bob@example.com');
+INSERT INTO Users VALUES ('Charlie', 'charlie@example.com');
+
