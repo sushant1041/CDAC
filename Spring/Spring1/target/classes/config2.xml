@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd
+           http://www.springframework.org/schema/util
+           http://www.springframework.org/schema/util/spring-util.xsd">
+<!--         <context:annotation-config/>-->
+      <util:list list-class="java.util.LinkedList" id="list1">
+          <value>Sushant</value>
+          <value>Rutu</value>
+          <value>Anna</value>
+          <value>Nunna</value>
+      </util:list>
+
+     <util:map map-class="java.util.HashMap" id="mp">
+        <entry key="1" value="Kolhapur"/>
+        <entry key="2" value="Sangli"/>
+        <entry key="3" value="Satara"/>
+        <entry key="4" value="Pune"/>
+    </util:map>
+
+  <bean class="StandAloneApp.Person" name="p2">
+           <property name="City" ref="list1"/>
+           <property name="Mapdemo" ref="mp"/>
+  </bean>
+
+
+</beans>

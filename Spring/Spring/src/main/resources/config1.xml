@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd"><!-- bean definitions here -->
+
+   <bean class="UsingSetter.CollectionType.Demo" name="coll">
+         <property name="name">
+               <value>Sushant</value>
+         </property>
+<!--list collection-->
+         <property name="phones">
+              <list>
+                    <value>258963</value>
+                    <value>78965</value>
+                    <value>74589</value>
+                    <value>58964</value>
+              </list>
+         </property>
+         <property name="address">
+               <set>
+                     <value>Amashi</value>
+                     <value>Akurde</value>
+                     <value>Kale</value>
+                     <value>Punal</value>
+               </set>
+         </property>
+         <property name="courses">
+               <map>
+                     <entry key="java" value="3 months"></entry>
+                     <entry key="c++" value="1 months"></entry>
+                     <entry key=".net" value="2 months"></entry>
+                     <entry key="python" value="1 month"></entry>
+               </map>
+         </property>
+   </bean>
+
+     
+</beans>
